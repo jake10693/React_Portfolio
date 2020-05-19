@@ -15,14 +15,14 @@ function HelloDiv() {
                 <br/>
                 <hr/>
                 <br/>
-            <div id="center"/>
+            <div class="bg-text" id="center"/>
                 <div class="header">
                     <h2 id="text">Hello, I'm a Full-Stack Web Developer</h2>
                     <h3 id="text">I create fully responsive and dynamic websites with stunning user interfaces.</h3>
                     
                 </div>   
                 <br/>     
-                <div class="pic"><a href="https://jake10693.github.io/Portfolio-Websites/"><img src="IMG-2206.png" width="200" height="150" alt=" "/></a></div>
+                <div class="pic"><a href="https://jake10693.github.io/Portfolio-Websites/"><img src="/click_me.png" width="200" height="150" alt=" "/></a></div>
                 <br/>
                 <br/>
                 <br/>

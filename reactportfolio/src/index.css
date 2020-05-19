@@ -147,7 +147,7 @@ h4  {
 }
 .topnav {
     display: inline;
-    /* float: right; */
+    float: right;
     size: 500%;
 
 }

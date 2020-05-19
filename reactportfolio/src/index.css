@@ -1,13 +1,157 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBG 32s linear infinite 0s;
+  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+                      code {
+                        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+                          monospace;
+                      }
+
+@keyframes slideBG {
+    0% {
+        background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+    }
+    25% 
+    { background-image: url("https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80"); }
+    50%
+    { background-image: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"); }
+    75%
+    { background-image: url("https://images.unsplash.com/photo-1545670723-196ed0954986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"); }
+    100%
+    { background-image: url("https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"); }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-size: 20px;
+  border: 10px solid #f1f1f1;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+}
+
+  /*
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  
+  text-align: center; */
+
+
+header {
+    width: 200px;
+    padding-top:20px;
+    height: 60px;
+    padding-left:80px;
+    font-size: 32px;
+    color: #ffffff;
+    display: block;
+}
+
+/* @-moz-keyframes spin {
+    from { -moz-transform: rotateY(0deg); }
+    to { -moz-transform: rotateY(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(360deg); }
+} */
+@keyframes spin {
+    from {transform:rotateY(0deg);}
+    to {transform:rotateY(1080deg);}
+}
+
+.pic    {
+    margin : auto;
+    width: 100px;
+    height: 100px;
+    animation-name: spin;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* -moz-animation-name: spin;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear; */
+    /* -o-transition: rotate(180deg); */
+}
+
+#center div {
+font-style: #777777;
+
+}
+
+.p1 {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* background-color: rgba(82, 255, 160, 0.596); */
+}
+h2  {
+    text-align: center;
+    color: hsla(170, 100%, 50%);
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 225%;
+}
+h3  {
+    text-align: center;
+    text-decoration: underline;
+    color: hsla(170, 100%, 50%);
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 150%;
+}
+h4  {
+    text-align: center;
+    color: hsla(190, 100%, 20%);
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 125%;
+}
+
+#text {
+    text-decoration: bold;
+}
+.topnav {
+    display: inline;
+    /* float: right; */
+    size: 500%;
+
+}
+ 
+#left{
+   float: right;
 }

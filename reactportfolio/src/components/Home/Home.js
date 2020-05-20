@@ -1,8 +1,8 @@
 import React from "react";
-
-function HelloDiv() {
+import './Home.css'
+function Home() {
   return (
-    <div>
+    <div class="bg-text">
             <header>
             Jacob Carver
         </header>
@@ -14,22 +14,24 @@ function HelloDiv() {
         
                 <br/>
                 <hr/>
-                <br/>
-            <div class="bg-text" id="center"/>
+            <div id="center">
                 <div class="header">
                     <h2 id="text">Hello, I'm a Full-Stack Web Developer</h2>
                     <h3 id="text">I create fully responsive and dynamic websites with stunning user interfaces.</h3>
                     
                 </div>   
                 <br/>     
-                <div class="pic"><a href="https://jake10693.github.io/Portfolio-Websites/"><img src="/click_me.png" width="200" height="150" alt=" "/></a></div>
+                <div class="pic">
+                    <a href="https://jake10693.github.io/Portfolio-Websites/"><img src={require("./click_me.png")} width="200" height="150" alt=" "></img></a>
+                </div>
                 <br/>
                 <br/>
-                <br/>
-                <br/>
+               
                 <div class="p1"> <p id="text">I am 26 years old and am currently working as well as self-emplowed as a personal trainer. I am looking for a career change to both stabalize my time spent working and the my income. 
                    web development suits my interests and personality in many ways: </p>
                 </div>
+               
+                <br/>
                     <div class="p1">  
                         <ul>
                             <li id="text">I'v always wanted to have the opportunity to work from my computer.</li>
@@ -39,7 +41,7 @@ function HelloDiv() {
                             <li id="text">It has an endless opportunity for freelance jobs.</li>
                         </ul> 
                     </div>
-                
+                    <br/>
                     <div class="p1"> <p id="text">Quite frankly, I could easily write a daily blog going on-and-on about all the in-depth reasons why I am so
                         passionate about it (In fact, I think I just found my next project).
                         But moving on from my career, I really enjoy having deep conversations 1-on-1 with people. I find small talk
@@ -49,8 +51,11 @@ function HelloDiv() {
                         Life is only worth living if it's to the fullest, and I intend to continue doing that.</p>
                     </div>
             </div>
-       
+          <footer>
+
+          </footer>
+    </div>   
   )
 };
 
-export default HelloDiv;
+export default Home;

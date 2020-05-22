@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.3daf6479.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.d6945c87.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.d6945c87.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.a86ad42b.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.a86ad42b.js.map",
+    "static/js/2.56692cda.chunk.js": "/React_Portfolio/static/js/2.56692cda.chunk.js",
+    "static/js/2.56692cda.chunk.js.map": "/React_Portfolio/static/js/2.56692cda.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "precache-manifest.97ff260db20fd3a6e8cf61ba387e35d1.js": "/React_Portfolio/precache-manifest.97ff260db20fd3a6e8cf61ba387e35d1.js",
+    "service-worker.js": "/React_Portfolio/service-worker.js",
+    "static/css/main.3daf6479.chunk.css.map": "/React_Portfolio/static/css/main.3daf6479.chunk.css.map",
+    "static/js/2.56692cda.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.56692cda.chunk.js.LICENSE.txt",
+    "static/media/click_me.png": "/React_Portfolio/static/media/click_me.a3c40069.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a86ad42b.js",
+    "static/js/2.56692cda.chunk.js",
+    "static/css/main.3daf6479.chunk.css",
+    "static/js/main.d6945c87.chunk.js"
+  ]
+}

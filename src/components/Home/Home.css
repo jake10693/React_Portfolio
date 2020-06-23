@@ -78,12 +78,25 @@ header {
     from {transform:rotateY(0deg);}
     to {transform:rotateY(1080deg);}
 }
+@keyframes leftToRight {
+    0%{transform-origin:0 0;}
+	25%{transform-origin:500px 0;}
+    50%{transform-origin:0 0;}
+	75%{transform-origin:-500px 0;}
+    100%{transform-origin:0 0;}
+	/* 50%{position:500px 0;}
+    60%{position:0 0;}
+	170%{position:-500px 0;}
+    80%{position:0 0;}
+	90%{position:500px 0;}
+	100%{position:0px 0;} */
+}
 
 .pic    {
     margin : auto;
     width: 100px;
     height: 100px;
-    animation-name: spin;
+    animation-name: leftToRight, spin;
     animation-duration: 32s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;

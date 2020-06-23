@@ -17,7 +17,9 @@ function Home() {
             <div id="center">
                 <div class="header">
                     <h2 id="text">Hello, I'm a Full-Stack Web Developer</h2>
-                    <h3 id="text">I create fully responsive and dynamic websites with stunning user interfaces.</h3>
+                    <h3 id="text">
+                        I create fully responsive and dynamic websites with stunning user interfaces. Try clicking on my face to see my work
+                    </h3>
                     
                 </div>   
                 <br/>     
@@ -27,8 +29,7 @@ function Home() {
                 <br/>
                 <br/>
                
-                <div class="p1"> <p id="text">I am 26 years old and am currently working as well as self-emplowed as a personal trainer. I am looking for a career change to both stabalize my time spent working and the my income. 
-                   web development suits my interests and personality in many ways: </p>
+                <div class="p1"> <p id="text">Hello, I am a software developer with a strong passion for solving problems and the ambition to change the world for the better. I am versed in the complexity of full-stack web development, though my passion lies mostly in front-end engineering. I believe that organization and communication is the number one key for success in building projects with a team. It is for this reason that my next endeavor into my software engineering education is to learn the ins-and-outs of quality assurance and unit testing to improve workflow and productivity. </p>
                 </div>
                
                 <br/>

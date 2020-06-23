@@ -18,7 +18,7 @@ function Home() {
                 <div class="header">
                     <h2 id="text">Hello, I'm a Full-Stack Web Developer</h2>
                     <h3 id="text">
-                        I create fully responsive and dynamic websites with stunning user interfaces. Try clicking on my face to see my work
+                        I create fully responsive and dynamic websites with fun and interactive user interfaces. Click the spinning image to see my work!
                     </h3>
                     
                 </div>   
@@ -35,21 +35,16 @@ function Home() {
                 <br/>
                     <div class="p1">  
                         <ul>
-                            <li id="text">I'v always wanted to have the opportunity to work from my computer.</li>
-                            <li id="text">I can work in a field that requires or at least allows a creative aspect.</li>
-                            <li id="text">I'm intrigued by how limitless the possibilties are for what kind of software can be created.</li>
-                            <li id="text">The ability to work remotely will allow me to do the one thing that I've always wanted, to travel the world.</li>
-                            <li id="text">It has an endless opportunity for freelance jobs.</li>
+                            <li id="text">I'v always wanted to have the opportunity to make the world a better place.</li>
+                            <li id="text">I enjoy being creative.</li>
+                            <li id="text">I enjoy working alone, but I prefer working in an effective team environment.</li>
+                            <li id="text">I like working from computers.</li>
+                            <li id="text">I plan to become a seniore software engineer in 5 years.</li>
+                            <li id="text">I never want to stop learning and growing.</li>
                         </ul> 
                     </div>
                     <br/>
-                    <div class="p1"> <p id="text">Quite frankly, I could easily write a daily blog going on-and-on about all the in-depth reasons why I am so
-                        passionate about it (In fact, I think I just found my next project).
-                        But moving on from my career, I really enjoy having deep conversations 1-on-1 with people. I find small talk
-                        to be redundant an and pointless. I'm always up for an adventure and a new experience. If there is anything
-                        I've learned in my 26 years of existence, it's that life is short and not worth wasting on meaningless
-                        encounters/experiences.
-                        Life is only worth living if it's to the fullest, and I intend to continue doing that.</p>
+                    <div class="p1"> <p id="text"></p>
                     </div>
             </div>
           <footer>

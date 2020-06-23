@@ -78,18 +78,18 @@ header {
     from {transform:rotateY(0deg);}
     to {transform:rotateY(1080deg);}
 }
-/* @keyframes leftToRight {
-    0%{transform-origin:0 0;}
-	25%{transform-origin:500px 0;}
-    50%{transform-origin:0 0;}
-	75%{transform-origin:-500px 0;}
-    100%{transform-origin:0 0;}
-	50%{position:500px 0;}
+ @keyframes leftToRight {
+    0%{translate:0 0;}
+	25%{translate:500px 0;}
+    50%{translate:0 0;}
+	75%{translate:-500px 0;}
+    100%{translate:0 0;}
+	/* 50%{position:500px 0;}
     60%{position:0 0;}
 	170%{position:-500px 0;}
     80%{position:0 0;}
 	90%{position:500px 0;}
-	100%{position:0px 0;} */
+	100%{position:0px 0;}  */
 }
 
 .pic    {
@@ -110,6 +110,15 @@ header {
     -ms-animation-timing-function: linear; */
     /* -o-transition: rotate(180deg); */
 }
+/* .pic    {
+    margin : auto;
+    width: 100px;
+    height: 100px;
+    animation-name: leftToRight;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */
 
 #center div {
 font-style: #777777;

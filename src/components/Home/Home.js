@@ -29,7 +29,7 @@ function Home() {
                 <br/>
                 <br/>
                
-                <div class="p1"> <p id="text">Hello, I am a software developer with a strong passion for solving problems and the ambition to change the world for the better. I am versed in the complexity of full-stack web development, though my passion lies mostly in front-end engineering. I believe that organization and communication is the number one key for success in building projects with a team. It is for this reason that my next endeavor into my software engineering education is to learn the ins-and-outs of quality assurance and unit testing to improve workflow and productivity. </p>
+                <div class="p1"> <p id="text">Hello, I am a software developer with a strong passion for solving problems and the ambition to change the world for the better. I am versed in the complexity of full-stack web development, I thoroughly enjoy both working in front-end and back-end development. I believe that organization and communication is the number one key for success in building projects with a team. It is for this reason that my next endeavor into my software engineering education is to learn the ins-and-outs of quality assurance and unit testing to improve workflow and productivity. </p>
                 </div>
                
                 <br/>

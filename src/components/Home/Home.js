@@ -24,13 +24,16 @@ function Home() {
                 </div>   
                 <br/>     
                 <div class="row">
-                    <div class="col-lg"></div>
+                <div class="col-lg"></div>
                     <div class="col-lg">
                     <a href="https://github.com/jake10693"><img src={require("./Github.png")} width="125" height="100" alt=" " class="pic" id="ithub"></img></a>
+                    </div>
+                    <div class="col-lg">
                     <a href="https://jake10693.github.io/Portfolio-Websites/"><img src={require("./click_me.png")} width="125" height="100" alt=" " class="pic" id="clickme"></img></a>
+                    </div>
+                    <div class="col-lg">
                     <a href="https://www.linkedin.com/in/jacob-carver-125b81191/"><img src={require("./LinkedIn.png")} width="125" height="100" alt=" " class="pic" id="linkedin"></img></a>
                     </div>
-                    <div class="col-lg"></div>
                 </div>
                 <br/>
                 <br/>
